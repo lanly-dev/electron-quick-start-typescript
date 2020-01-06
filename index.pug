@@ -2,15 +2,16 @@ doctype html
 head
   meta(charset='UTF-8')
   title Hello World!
-h1 Hello World!
-|     We are using Node.js 
-span#node-version
-| ,
-|     Chromium 
-span#chrome-version
-| ,
-|     and Electron 
-span#electron-version
-| .
-// You can also require other files to run in this process
-require('#{rendererPath}')
+body
+  h1 Hello World!
+  |     We are using Node.js 
+  span#node-version
+  | ,
+  |     Chromium 
+  span#chrome-version
+  | ,
+  |     and Electron 
+  span#electron-version
+  | .
+  // You can also require other files to run in this process
+  require('#{rendererPath}')

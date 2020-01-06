@@ -22,9 +22,9 @@
   "license": "CC0-1.0",
   "devDependencies": {
     "@types/pug": "^2.0.4",
-    "electron": "^6.0.10",
+    "electron": "^7.1.7",
     "pug": "^2.0.4",
-    "tslint": "^5.20.0",
-    "typescript": "^3.6.3"
+    "tslint": "^5.20.1",
+    "typescript": "^3.7.4"
   }
 }
